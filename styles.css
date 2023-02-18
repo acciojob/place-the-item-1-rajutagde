@@ -8,16 +8,25 @@
 }
 .flex-container{
 	display: flex;
-    flex-direction: column
-
+    flex-direction: row;
+	align-content: space-evenly;
+     gap:12px;
 	
 }
 .flex-box{
      width:75px;
-	height:75px:
+	height:75px;
 	background-color:lightskyblue;
     border:2px solid blue;
 }
+	.flex-1{
+      background-color: red;	
+		
+	}
+.box-2{
+	background-color: black;
+	order:2;
 	
+}
 	
 }
