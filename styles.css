@@ -1,26 +1,23 @@
 
 /* Your CSS Code here. */
 .body{
-box-sizing:content-box;
-	max-width:100%
-	background-color:white;
-
+   font-size:20px;
+	padding:0 20px 30px 0;
+	line-height:1.4;
+	
 }
 .flex-container{
-	width:100%;
-	hight:500px;
-	border:2px color red;
 	display: flex;
-	flex-direction:row;
-	justify-content:center;
-	flex:wrap
-}
-	.flex-box{
-		width:20;
-		hight:30;
+    flex-direction: column
 
-		
-	}
+	
+}
+.flex-box{
+     width:75px;
+	height:75px:
+	background-color:lightskyblue;
+    border:2px solid blue;
+}
 	
 	
 }
