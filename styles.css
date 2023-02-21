@@ -1,21 +1,43 @@
-.container{
-	display:flex;
-	flex-direction:row;
-	justify-content:space-between;
+.container{ 
+	background-color:green;  
+	width:100px;  
+	height:100px;  
+}
+.container1{ 
+	background-color:green;  
+	width:100px; 
+	height:100px;  
+} 
+.container4{ 
+	background-color:green;   
+	width:100px; 
+	height:100px;  
+}
+.container5{ 
+	background-color:green;   
+	width:100px; 
+	height:100px;  
+}
+.container6{ 
+	background-color:green;  
+	width:100px; 
+	height:100px;  
+}
+.container7{ 
+	background-color:red;  
+	width:100px; 
+	height:100px;  
+}
+.container8{ 
+	background-color:blue;   
+	width:100px; 
+	height:100px;   
+} 
+div{   
+	padding:2px;  
+	display:flex; 
 	flex-wrap:wrap;
-}
-.one{
-	background-color:green;
-	padding-bottom:50px;
-	padding-right:50px;
-}
-.two{
-	background-color:red;
-	padding-bottom:50px;
-	padding-right:50px;
-}
-.three{
-	background-color:blue;
-	padding-bottom:50px;
-	padding-right:50px;
+	justify-content:space-between;  
+	font-size:70px; 
+	
 }
