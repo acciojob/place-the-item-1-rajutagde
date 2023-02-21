@@ -1,32 +1,23 @@
 
 /* Your CSS Code here. */
-.body{
-   font-size:20px;
-	padding:0 20px 30px 0;
-	line-height:1.4;
-	
+.container{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	flex-wrap:wrap;
 }
-.flex-container{
-	display: flex;
-    flex-direction: row;
-	align-content: space-evenly;
-     gap:12px;
-	
+.one{
+	background-color:green;
+	padding-bottom:50px;
+	padding-right:50px;
 }
-.flex-box{
-     width:75px;
-	height:75px;
-	background-color:lightskyblue;
-    border:2px solid blue;
+.two{
+	background-color:red;
+	padding-bottom:50px;
+	padding-right:50px;
 }
-	.flex-1{
-      background-color: red;	
-		
-	}
-.box-2{
-	background-color: black;
-	order:2;
-	
-}
-	
+.three{
+	background-color:blue;
+	padding-bottom:50px;
+	padding-right:50px;
 }
