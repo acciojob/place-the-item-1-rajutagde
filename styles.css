@@ -14,14 +14,12 @@
 	background-color:blue;
 	padding-bottom:50px;
 	padding-right:50px;
+	order:3;
 }
-/* .three{
-	background-color:blue;
-	padding-bottom:50px;
-	padding-right:50px;
-} */
+
 .one{
 	background-color:red;
 	padding-bottom:50px;
 	padding-right:50px;
+	order: 2;
 }
